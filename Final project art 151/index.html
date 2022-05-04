@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> The Planetary Society of America </title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script src="moon.js" type="text/javascript"> </script>
+<script language="JavaScript1.1">
+
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages(){
+for (i=0;i<slideshowimages.arguments.length;i++){
+slideimages[i]=new Image()
+slideimages[i].src=slideshowimages.arguments[i]
+}
+}
+function gotoshow(){
+if (!window.winslide||winslide.closed)
+winslide=window.open(slidelinks[whichlink])
+else
+winslide.location=slidelinks[whichlink]
+winslide.focus()
+}
+</script>
+
+<link href='//fonts.googleapis.com/css?family=Ewert' rel='stylesheet'/>
+
+</head>
+<body>
+<div class="wrapper">
+<header>
+
+<nav>
+<h1 > The Planetary</h1>
+<ul>
+<li><a href="index.html" > HOME </a> </li>
+<li><a href="registration.html"> REGISTRATION </a></li>
+<li><a href="education.html"> EDUCATION </a></li>
+<li><a href="shopping.html"> SHOPPING </a></li>
+</ul>
+</nav>
+</header>
+<div id="practiceObject">
+<svg height="150" width="150">
+    <image xlink:href="moon1.gif" width="140" height="140" />
+</svg></div>
+<main>
+
+ 
+ 
+ <section class="planet">
+<h1> The Planetary</h1>
+ <div id="slide"><a href="javascript:gotoshow()"><img class="imageshow" src="show1.jpg" name="slide" border="0" width="650" height="347"></a></div>
+  <script>
+slideshowimages("show11.jpg","show22.jpg","show33.jpg","show44.jpg","show55.jpg")
+var slideshowspeed=3000
+var whichimage=0
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=slideimages[whichimage].src
+if (whichimage<slideimages.length-1)
+whichimage++
+else
+whichimage=0
+setTimeout("slideit()",slideshowspeed)
+}
+slideit()
+   </script>
+<h2>What we do</h2>
+
+<h3>We create. We educate. We advocate.</h3>
+
+<p>With your support, The Planetary Society sponsors projects that will seed innovative space technologies, nurtures creative young minds, and is a vital advocate for our future in space.</p>
+
+<p>Right now we are…</p>
+<ul>
+<li>Scanning the skies for dangerous asteroids, </li>
+<li>Hunting for Earthlike planets,</li>
+<li>Searching for life in the Universe,</li>
+<li>Advocating for needed science funding,</li>
+<li>And flying our very own solar sail spacecraft, Lightsail-1.</li>
+</ul>
+
+<h2>Why we do it </h2>
+
+<p>Our Mission: Empower the world's citizens to advance space science and exploration.</p>
+
+<h2>What you can do</h2>
+
+<h3>Want to get more involved? We are YOUR place in space.</h3>
+
+<p>We're excited to share with you the many ways you can participate with us to play a part in the future of space exploration.</p>
+
+<p>From joining our online community to volunteering to becoming a member of our New Millennium Committee, we have something just right for you.</p>
+</section>
+
+<article>
+<h1>Explore</h1>
+<h2>Places to Go</h2>
+</article>
+
+<section class="sect1">
+<img  src="section1.jpg" width="121" height="123">
+<h3>Space Topics</h3>
+<p>Learn about the planets, moons, and smaller stuff in the solar system; the spacecraft that explore them; and how you can explore along with them.</p>
+</section>
+
+<section class="sect2">
+<img  src="section2.jpg" width="121" height="123">
+<h3>What We Do</h3>
+<p>The Planetary Society creates ways for the public to have active roles in space exploration. We seed innovative space technologies, nurture creative young minds, and are a vital advocate for our future in space.</p>
+</section>
+
+<section class="sect3">
+<img  src="section3.jpg" width="121" height="123">
+<h3>The Planetary Report</h3>
+<p>The Planetary Report is the internationally recognized flagship magazine of The Planetary Society, featuring lively articles and full-color photos to provide comprehensive coverage of discoveries on Earth and other planets.</p>
+</section>
+</main>
+
+
+
+<footer>
+</footer>
+</div>
+</body>
+</html>
+
