@@ -1,0 +1,411 @@
+@charset "utf-8";
+/* CSS Document */
+header, section, footer, aside, nav {
+	display:block;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	background-image:url(backbody.jpg);
+
+}
+
+.wrapper {
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	background-image:url(back.jpg);
+	border: 1px dashed #289386;
+}
+
+header {
+	height:115px;
+	border: 1px solid #121B64;
+	background-image:url(header.jpg);
+	padding-bottom: 40px;
+}
+header h1 {
+	color: white;
+}
+nav h1  {
+	margin: 40px 10px 0 30px;
+	font-size:24px;
+	font-family:'Ewert';
+}
+nav ul {
+	margin: 50px 0 0 300px;
+	float: right;
+	font-size: 17px;
+}
+
+nav li {
+	display:inline;
+	margin-right:2.0em;
+}
+
+nav li a {
+	text-decoration:none;
+	color:white;
+}
+a:visited {
+	color: #BF714F;}
+a:hover {
+	color: #309269;
+	text-decoration: underline;
+}
+main {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.planet  {
+	width: 100% !important;
+	border: 1px solid #1D274D;
+	background-color: #1D274D;
+	margin-top: 100px;
+	color:white;
+	text-align:justify;
+	
+}
+.planet h1 {
+	padding-left: 30px;
+	font-size: 18px;
+	
+}
+.planet h2 {
+	padding-left: 30px;
+	padding-right: 20px;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.planet h3 {
+	padding-left:30px;
+	padding-right:20px;
+}
+.planet p {
+	padding-left:30px;
+	padding-right:20px;
+}
+
+
+.planet ul {
+	margin-left:10px;
+	
+}
+
+.imageshow {
+	border-radius: 5%;
+	border:2px solid #10225C;
+	margin-left:20px;
+}
+article {
+	width:700px;
+	border: 1px solid #1D274D;
+	background-color: #1D274D;
+	--margin-left:20px;
+	margin-top:10px;
+	color:white;
+}
+article h1 {
+	padding-left:30px;
+}
+
+article h2 {
+	padding-left:30px;
+}
+.sect1, .sect2, .sect3 {
+	width:700px;
+	height:150px;
+	border: 1px solid #1D274D;
+	background-color: #1D274D;
+	--margin-left:20px;
+	margin-top:10px;
+	color:white;
+}
+
+section img {
+	float:left;
+	margin:10px 10px 10px 10px;
+}
+.sect1>h3  {
+	margin-left:160px;
+	margin-right:10px;
+	text-align: justify;
+}
+.sect2>h3  {
+	margin-left:160px;
+	margin-right:10px;
+	text-align: justify;
+}
+.sect3>h3  {
+	margin-left:160px;
+	margin-right:10px;
+	text-align: justify;
+}
+.sect1>p {
+	margin-left:160px;
+	margin-right:10px;
+	text-align: justify;
+}
+.sect2>p {
+	margin-left:160px;
+	margin-right:10px;
+	text-align: justify;
+}
+.sect3>p {
+	margin-left:160px;
+	margin-right:10px;
+	text-align: justify;
+}
+aside {
+	float:right;
+	width:200px;
+	
+	margin-right:30px;
+	margin-top:100px;
+}
+
+.astro {
+	border: 1px solid #121B64;
+	background-color: #2F4AB3;
+}
+.astro h3 {
+	color:white;
+	padding-left:30px;
+}
+.astro ul {
+	list-style: none;
+	padding-left:8px;
+	padding-right:5px;
+}
+.astro ul li a {
+	text-decoration:none;
+	color:white;
+}
+
+.blog {
+	margin-top:50px;
+	border: 1px solid #121B64;
+	background-color: #2F4AB3;
+}
+.blog h3 {
+	color:white;
+	padding-left:30px;
+}
+.blog ul {
+	list-style: none;
+	padding-left:8px;
+	padding-right:5px;
+}
+.blog ul li a {
+	text-decoration:none;
+	color:white;
+}
+
+
+
+footer {
+	clear:both;
+	color:white;
+	padding-top:40px;
+}
+.stay {
+	margin-left:620px;
+}
+footer p {
+	color:white;
+}	
+footer a>img {
+	float:right;
+	margin-right:2px;
+	border: 8px  #70B79E solid;
+	border-radius: 10px;
+}
+.policy {
+	text-align:center;}
+.adress {
+	margin-left:30px;
+}
+.adress p {
+	font-size:14px;
+	line-height:0.5em;
+}
+#practiceObject {
+ margin-top: 20px;
+ position:absolute;
+ left:0px;
+ top:7em;
+ width:5em;
+ line-height:3em;
+ white-space:nowrap;
+ padding:0.5em;
+}
+
+/*................................infomation..............*/
+
+.rsect1, .rsect2, .rsect3, .rsect4, .rsect5 {
+	width:700px;
+	height:180px;
+	border: 1px solid #121B64;
+	background-color: #2F4AB3;
+	margin-top:10px;
+	color:white;
+}
+
+.rsect1 img, .rsect3 img, .rsect5 img {
+	float:left;
+	margin:10px 10px 10px 10px;
+}
+
+.rsect2 img, .rsect4 img {
+	float:right;
+	margin:10px 10px 10px 10px;
+}
+.rsect1>h3, .rsect3>h3, .rsect4>h3,   .rsect5>h3  {
+	margin-left:160px;
+	margin-right:10px;
+	text-align: justify;
+}
+
+.rsect2>h3, .rsect4>h3 {
+	margin-right:160px;
+	margin-left:10px;
+	text-align: justify;
+}
+
+.rsect1>p,  .rsect3>p,  .rsect5>p  {
+	margin-left:160px;
+	margin-right:10px;
+	text-align: justify;
+}
+.rsect2>p,.rsect4>p {
+	margin-right:160px;
+	margin-left:10px;
+	text-align: justify;
+}
+
+
+.planet_reg {
+	margin-top: 100px;
+}
+
+  
+/* ......education...........................*/
+.ed1 {
+	float:right;
+}
+.ed3 {
+	float:right;
+}
+
+.planet ul li a {
+	text-decoration:none;
+	color:white;
+}
+.ed {
+	width:700px;
+	border: 1px solid #121B64;
+	background-color: #2F4AB3;
+	margin-top:20px;
+	color:white;
+}
+.edsect1 {
+	width:220px;
+	height:440px;
+	float: left;
+	border: 1px solid #121B64;
+	background-color: #2F4AB3;
+	margin-top:20px;
+	color:white;
+	box-sizing: border-box;
+}
+
+.edsect2, .edsect3 {
+	width:220px;
+	height:440px;
+	float: left;
+	border: 1px solid #121B64;
+	background-color: #2F4AB3;
+	margin-left:20px;
+	margin-top:20px;
+	color:white;
+	box-sizing: border-box;
+}
+
+.edsect1>h3, .edsect2>h3, .edsect3>h3 {
+	padding-left:10px;
+	padding-right: 10px;
+	text-align:justify;
+}
+.edsect1>p, .edsect2>p, .edsect3>p {
+	padding-left:10px;
+	padding-right: 10px;
+	text-align:justify;
+}
+.child {
+	border: 1px solid #121B64;
+	height:40px;
+	background-color: #2F4AB3;
+	margin-top:10px;
+
+}
+
+.child1, .child2, .child3 {
+	border: 1px solid #121B64;
+	height:250px;
+	background-color: #2F4AB3;
+	margin-top:10px;
+	padding-top:15px;
+	padding-left:10px;
+}
+.child>h3 {
+	color:white;
+	padding-left:20px;
+}
+
+.child1>a, .child2>a, .child3>a {
+	text-decoration:none;
+	color:white;
+	
+}
+
+/* ..................................shopping*/
+
+.splanet  {
+	width:720px;
+	border: 1px solid #404354;
+	background-color: #191a1c;
+	margin-top: 100px;
+	color:black;
+	text-align:justify;
+	padding: 10px;
+	
+}
+
+#shopping_h2 {
+	color: white;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+#s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8  {
+	width:715px;
+	height:180px;
+	padding-top:10px;
+	
+	box-sizing: border-box;
+}
+.splanet h2 {
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#s9 input {
+	margin-left:20px;
+	margin-bottom:10px;
+		width: 80px;
+		height:40px;
+}
